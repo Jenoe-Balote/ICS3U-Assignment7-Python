@@ -9,6 +9,8 @@ import math
 
 def find_palindrome(string):
     # this function determines if the string is a palindrome or not
+    # Source used to determine palindrome in python:
+    # https://www.geeksforgeeks.org/python-program-check-string-palindrome-not/
 
     string_divide = len(string)/2
     for character_count in range(0, int(string_divide)):
